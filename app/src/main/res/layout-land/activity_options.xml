@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//# COMP 4521    #  YOUR FULL NAME        STUDENT ID          EMAIL ADDRESS
+//         1.       Ivan Bardarov         20501426            iebardarov@connect.ust.hk
+//         2.       Danny Nsouli          20531407            dmansouli@connect.ust.hk
+    -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".OptionsActivity">
+
+        <ImageButton
+        android:id="@+id/imageButtonAddEvent"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="43dp"
+            android:background="@color/colorPrimaryDark"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/addeventtabland" />
+
+    <ImageButton
+        android:id="@+id/imageButtonProfile"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimaryDark"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/proftabland" />
+
+    <ImageButton
+        android:id="@+id/imageButtonExplore"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="43dp"
+        android:background="@color/colorPrimaryDark"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/exploretabland" />
+
+
+</RelativeLayout>
+
+

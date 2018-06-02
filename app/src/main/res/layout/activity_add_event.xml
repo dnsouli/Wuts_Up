@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//# COMP 4521    #  YOUR FULL NAME        STUDENT ID          EMAIL ADDRESS
+//         1.       Ivan Bardarov         20501426            iebardarov@connect.ust.hk
+//         2.       Danny Nsouli          20531407            dmansouli@connect.ust.hk
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddEventActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/eventcreator"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/eventNameTextField"
+        android:layout_width="204dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:ellipsize="start"
+        android:ems="10"
+        android:gravity="center_horizontal|fill_horizontal"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/eventCapacityTextField"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/eventNameTextField"
+        android:layout_alignBottom="@+id/eventNameTextField"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/eventNameTextField"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:ellipsize="start"
+        android:ems="10"
+        android:gravity="center_horizontal|fill_horizontal"
+        android:hint="@string/capacity"
+        android:inputType="numberDecimal"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/descriptionTextField"
+        android:layout_width="266dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/eventCapacityTextField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:ellipsize="start"
+        android:ems="10"
+        android:gravity="fill_horizontal"
+        android:hint="@string/description"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="1"
+        android:maxLines="10"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/descriptionTextField"
+        android:layout_below="@+id/descriptionTextField"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="21dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/date" />
+
+    <Button
+        android:id="@+id/addEventButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_vertical"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_event" />
+
+    <Button
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/descriptionTextField"
+        android:layout_below="@+id/descriptionTextField"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/time" />
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/typeSpinner"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/location" />
+
+    <Spinner
+        android:id="@+id/typeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dateTextView"
+        android:layout_marginTop="22dp"
+        android:hint="@string/type" />
+
+</RelativeLayout>

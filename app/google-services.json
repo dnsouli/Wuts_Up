@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "636614912809",
+    "firebase_url": "https://wutsup-24.firebaseio.com",
+    "project_id": "wutsup-24",
+    "storage_bucket": "wutsup-24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636614912809:android:11008f26d9f126b4",
+        "android_client_info": {
+          "package_name": "hk.ust.cse.comp4521.watsup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636614912809-o2kp119pdtd9c660m8behd2b7hqb86s4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hk.ust.cse.comp4521.watsup",
+            "certificate_hash": "a843f89b17d099860abe4f1845a7f4c10b0a42c3"
+          }
+        },
+        {
+          "client_id": "636614912809-qvih3foq3vj3ggqq1o1v3eddc9kihngk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIOL93vcg27pzmnhoAxLDTDgdmk0OCAbw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636614912809-qvih3foq3vj3ggqq1o1v3eddc9kihngk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

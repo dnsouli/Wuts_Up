@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//# COMP 4521    #  YOUR FULL NAME        STUDENT ID          EMAIL ADDRESS
+//         1.       Ivan Bardarov         20501426            iebardarov@connect.ust.hk
+//         2.       Danny Nsouli          20531407            dmansouli@connect.ust.hk
+    -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+</android.support.constraint.ConstraintLayout>

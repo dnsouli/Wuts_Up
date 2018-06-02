@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">WutsUp</string>
+    <string name="facebook_application_id" translatable="false">565722663821135</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">565722663821135</string>
+    <string name="title_event_list">Events</string>
+    <string name="title_event_detail">Event Detail</string>
+    <string name="addEventButton">Add Event</string>
+    <string name="exploreButton">Explore Events</string>
+    <string name="profile">Profile</string>
+    <string name="successfulLocation">Location Selected Successfully</string>
+    <string name="eventDetailDescription">Description:</string>
+    <string name="eventDetailType">Type:</string>
+    <string name="eventDetailName">Name:</string>
+    <string name="eventDetailDateTime">Date and Time:</string>
+    <string name="eventDetailLocation">See Location</string>
+    <string name="todo">TODO</string>
+    <string name="type">Type</string>
+    <string name="location">Location</string>
+    <string name="time">Time</string>
+    <string name="add_event">Add Event</string>
+    <string name="date">Date</string>
+    <string name="capacity">Capacity</string>
+    <string name="description">Description</string>
+    <string name="name">Name</string>
+    <string name="enrolled_events">Enrolled Events</string>
+    <string name="my_events">My Events</string>
+    <string-array name="spinner_items">
+        <item>No Type</item>
+        <item>Sport</item>
+        <item>Party</item>
+        <item>Outdoor</item>
+        <item>Hangout</item>
+        <item>Viewing</item>
+        <item>Birthday</item>
+        <item>Study</item>
+    </string-array>
+</resources>

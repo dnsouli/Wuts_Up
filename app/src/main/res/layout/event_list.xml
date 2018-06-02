@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//# COMP 4521    #  YOUR FULL NAME        STUDENT ID          EMAIL ADDRESS
+//         1.       Ivan Bardarov         20501426            iebardarov@connect.ust.hk
+//         2.       Danny Nsouli          20531407            dmansouli@connect.ust.hk
+    -->
+
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/event_list"
+    android:name="hk.ust.cse.comp4521.watsup.EventListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:background="@drawable/club"
+    android:backgroundTint="@color/browser_actions_bg_grey"
+    app:layoutManager="LinearLayoutManager"
+    tools:context=".EventListActivity"
+    tools:listitem="@layout/event_list_content" />

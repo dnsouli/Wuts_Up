@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//# COMP 4521    #  YOUR FULL NAME        STUDENT ID          EMAIL ADDRESS
+//         1.       Ivan Bardarov         20501426            iebardarov@connect.ust.hk
+//         2.       Danny Nsouli          20531407            dmansouli@connect.ust.hk
+    -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_border"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_gravity="center_horizontal"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:id="@+id/snippet"/>
+
+        <TextView
+            android:id="@+id/viewMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click on me to view More Details..." />
+    </LinearLayout>
+
+</LinearLayout>

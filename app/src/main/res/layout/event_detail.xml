@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//# COMP 4521    #  YOUR FULL NAME        STUDENT ID          EMAIL ADDRESS
+//         1.       Ivan Bardarov         20501426            iebardarov@connect.ust.hk
+//         2.       Danny Nsouli          20531407            dmansouli@connect.ust.hk
+    -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eventDetailLocation"
+        android:textSize="21sp"/>
+
+    <TextView
+        android:id="@+id/eventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eventDetailName"
+        android:layout_below="@id/locationButton"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/eventNameContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventName"
+        android:textSize="21sp"
+        />
+
+    <TextView
+        android:id="@+id/eventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventTypeContent"
+        android:text="@string/eventDetailDateTime"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/eventDateContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventDate"
+        android:textSize="21sp"
+        />
+
+    <TextView
+        android:id="@+id/eventType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventNameContent"
+        android:text="@string/eventDetailType"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/eventTypeContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventType"
+        android:textSize="21sp"
+        />
+
+    <TextView
+        android:id="@+id/eventDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventDateContent"
+        android:text="@string/eventDetailDescription"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/eventDescriptionContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventDescription"
+        android:textSize="21sp"
+        />
+
+</RelativeLayout>
